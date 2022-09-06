@@ -1,0 +1,19 @@
+branch-defaults:
+  ebl:
+    environment: Jolibabaproduction-env
+environment-defaults:
+  Jolibabaproduction-env:
+    branch: null
+    repository: null
+global:
+  application_name: JoliBaba Production
+  default_ec2_keyname: JoliBaba
+  default_platform: PHP 8.1 running on 64bit Amazon Linux 2
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  sc: git
+  workspace_type: Application
