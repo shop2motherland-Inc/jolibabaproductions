@@ -1,10 +1,12 @@
 branch-defaults:
   ebl:
     environment: Jolibabaproduction-env
+  main:
+    environment: Jolibabaproduction-env
 environment-defaults:
   Jolibabaproduction-env:
-    branch: null
-    repository: null
+    branch: main
+    repository: origin
 global:
   application_name: JoliBaba Production
   default_ec2_keyname: JoliBaba
